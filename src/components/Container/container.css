@@ -1,0 +1,17 @@
+html{
+    background-color: rgb(52,53,65);
+    color: white;
+}
+.container__body {
+    width: 100%;
+    /* padding-top: 10%; */
+    /* padding-bottom: 5%; */
+    margin: 0 auto;
+    background-color: rgb(52,53,65);
+  }
+  
+  @media (max-width: 768px) {
+    .container__body {
+      width: 90%;
+    }
+  }

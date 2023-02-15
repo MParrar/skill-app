@@ -1,0 +1,45 @@
+.stats__container {
+    display: flex;
+    margin-top:200px;
+  }
+
+.stats__column {
+    flex-basis: 50%;
+    padding: 1rem;
+  }
+
+.stats__info{
+    width: 100%;
+    background-color: rgb(32,33,35);
+}
+
+.stats__details{
+    background-color: rgb(32,33,35);
+    height: 200px;
+    display: grid;
+}
+
+.stats__worker{
+  grid-template-columns: 1fr;
+  background-color: rgb(32,33,35);
+
+}
+
+.stats__graphic{
+    background: rgb(214 214 214);
+    height: calc(100vh - 347px);
+    padding-left:20% ;
+  }
+
+.stats__img{
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    display: block;
+}
+  
+  @media (max-width: 768px) {
+    .stats__column {
+      flex-basis: 100%;
+    }
+  }
